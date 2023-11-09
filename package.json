@@ -1,7 +1,28 @@
 {
-  "name": "cms",
-  "version": "0.1.0",
+  "version": "0.0.1",
+  "name": "@nextless/cms",
+  "description": "Customizable CMS built on top of the Next.js App Router and Typescript. Re-think what headless can be.",
   "private": true,
+  "keywords": [
+    "nodejs",
+    "mysql",
+    "cms",
+    "typescript",
+    "rest",
+    "dashboard",
+    "nextjs",
+    "headless",
+    "content-management",
+    "cms-framework",
+    "content-management-system",
+    "headless-cms",
+    "server-components"
+  ],
+  "author": {
+    "name": "Fabio Nettis",
+    "email": "nettisfabio@gmail.com",
+    "url": "https://github.com/fabio-nettis"
+  },
   "scripts": {
     "dev": "next dev",
     "lint": "next lint",
