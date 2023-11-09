@@ -8,7 +8,7 @@ const sets: Record<string, NotUndefined<MetadataRoute.Manifest["icons"]>[0]> = {
   favicon: {
     src: "/favicon.ico",
     type: "image/x-icon",
-    sizes: "any",
+    sizes: "48x48",
   },
   icon1: {
     src: "/icon4.png",
