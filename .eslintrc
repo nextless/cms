@@ -1,0 +1,21 @@
+{
+  "root": true,
+  "plugins": ["@typescript-eslint", "jest"],
+  "extends": [
+    "next/core-web-vitals",
+    "plugin:prettier/recommended",
+    "plugin:react-hooks/recommended",
+    "plugin:jest/recommended"
+  ],
+  "overrides": [
+    {
+      "files": ["*.ts", "*.tsx"],
+      "rules": {
+        "@typescript-eslint/no-shadow": ["error"],
+        "no-shadow": "off",
+        "no-undef": "off",
+        "prettier/prettier": "error"
+      }
+    }
+  ]
+}
