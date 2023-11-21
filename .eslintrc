@@ -1,11 +1,10 @@
 {
   "root": true,
-  "plugins": ["@typescript-eslint", "jest"],
+  "plugins": ["@typescript-eslint"],
   "extends": [
     "next/core-web-vitals",
     "plugin:prettier/recommended",
-    "plugin:react-hooks/recommended",
-    "plugin:jest/recommended"
+    "plugin:react-hooks/recommended"
   ],
   "overrides": [
     {
